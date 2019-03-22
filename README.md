@@ -8,34 +8,34 @@ This is a CUI application created using C programming language which works as a 
 #include<math.h>
 #define pi 3.1415
 int main()
-{
-int a,b,c,c1,c2,c3,c4,option,numerator,denominator,remainder;
-float x,y,z,z1,z2,z3,z4,z5;
-double d,e;
-clrscr();
-printf("\nMenu\n1.Arithmetic\n2.Logic\n3.Unit Convertors\n4.Mensuration\n");
-printf("\nEnter option\t");
-scanf("%d",&option);
-switch(option)
-{
-case 1:
-clrscr();
-printf("\nArithmetic\n\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulus\n6.Logarithm");
-printf("\n7.Power\n8.Trigonometry\n\9.Factorial\n10.LCM & GCD\n");
-printf("\nEnter option\t");
-scanf("%d",&option);
-switch(option)
-{
-case 1:
-clrscr();
-printf("Enter two numbers\t");
-scanf("%d%d",&a,&b);
-c=a+b;
-printf("%d+%d=%d\t",a,b,c);
-break;
-case 2:
-clrscr();
-printf("Enter two numbers\t");
+  {
+  int a,b,c,c1,c2,c3,c4,option,numerator,denominator,remainder;
+  float x,y,z,z1,z2,z3,z4,z5;
+  double d,e;
+  clrscr();
+  printf("\nMenu\n1.Arithmetic\n2.Logic\n3.Unit Convertors\n4.Mensuration\n");
+  printf("\nEnter option\t");
+  scanf("%d",&option);
+  switch(option)
+  {
+  case 1:
+  clrscr();
+  printf("\nArithmetic\n\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulus\n6.Logarithm");
+  printf("\n7.Power\n8.Trigonometry\n\9.Factorial\n10.LCM & GCD\n");
+  printf("\nEnter option\t");
+  scanf("%d",&option);
+  switch(option)
+  {
+  case 1:
+  clrscr();
+  printf("Enter two numbers\t");
+  scanf("%d%d",&a,&b);
+  c=a+b;
+  printf("%d+%d=%d\t",a,b,c);
+  break;
+  case 2:
+  clrscr();
+  printf("Enter two numbers\t");
 scanf("%d%d",&a,&b);
 c=a-b;
 printf("%d-%d=%d\t",a,b,c);
